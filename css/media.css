@@ -1,0 +1,164 @@
+@media(max-width:1200px){
+    .main img{
+        width: 100%;
+    }
+
+    .nav{
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .main__first_title{
+        width: 100%;
+        max-width: 1100px;
+        text-align: center;
+    }
+
+    .box__one_title{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .box__one{
+        display: flex;
+        align-items: center;
+    }
+
+    .box__two{
+        width: 100%;
+        max-width: 1100px;
+        gap: 10px;
+        margin: 90px auto;
+    }
+    
+    .box__three{
+        width: 100%;
+        text-align: center;
+    }
+
+    .box__three_title{
+        font-size: 50px;
+
+    }
+
+    .box__four{
+        align-items: center;
+        margin: 53px auto;
+    }
+
+    .box__four_title{
+        font-size: 50px;
+    }
+}
+
+
+@media(max-width:992px){
+    .nav{
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .box__one_title{
+        font-size: 40px;
+    }
+
+    .box__two{
+        flex-direction: column;
+    }
+    
+    .box__two_texts{
+        align-items: center;
+    }
+
+    .box__two_text{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .box__three{
+        margin: 58px auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .box__three_title{
+        font-size: 40px;
+    }
+    
+    .box__four_title{
+        font-size: 40px;
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .main__first_title{
+        font-size: 50px;
+    }
+
+    .box__three{
+        text-align: center;
+        align-items: center;
+    }
+
+    .box__three_title{
+        font-size: 30px;
+    }
+    .box__three_text{
+        font-size: 25px;
+    }
+}
+
+
+@media(max-width:576px){
+    .box__one_title{
+        font-size: 30px;
+    }
+
+    .box__two_text{
+        font-size: 20px;
+    }
+
+    .box__two_btn{
+        font-size: 15px;
+        padding: 6px 8px;
+        border: 1px solid #264B1D;
+    }
+
+    .box__three_title{
+        font-size: 25px;
+    }
+
+    .box__three_text{
+        font-size: 20px;
+    }
+
+    .box__four_title{
+        font-size: 25px;
+    }
+
+    .box__four_btn {
+        font-size: 15px;
+        padding: 6px 8px;
+        border: 1px solid #264B1D;
+    }
+
+    .box__one_btn{
+        font-size: 15px;
+        padding: 6px 8px;
+        border: 1px solid #264B1D;
+    }
+
+    .main__first_title{
+        font-size: 30px;
+    }
+
+}
+
+
+@media(max-width:320px){
+
+}
